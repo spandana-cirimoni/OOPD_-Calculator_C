@@ -1,4 +1,4 @@
-# Calulator: Expression Evaluator using Command and Abstract Factory Pattern
+# Calculator: Expression Evaluator using Command and Abstract Factory Pattern
 
 ## Overview
 In this, implemented a basic expression evaluator using the Stack data structure created in OOPD_Stack-Queue_c. The evaluator will handle mathematical expressions with operators such as +, -, /, *, %, as well as parentheses and integers (positive and negative). The program will utilize the Infix to Postfix conversion algorithm to process expressions in O(n) time. To enhance the design, the Command Pattern will be used to evaluate the Postfix expression, and the (Abstract) Factory Pattern will be employed to create commands based on parsing the Infix expression.
